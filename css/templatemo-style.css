@@ -389,7 +389,7 @@ header {
   right:60px;
   width:50px;
   height:50px;
-  background:rgba(0,0,0,.50);
+  background:rgba(0,0,0,0);
   border:0 none;
   margin-top:-22.5px;
   text-align:center;
@@ -401,6 +401,7 @@ header {
 .Modern-Slider .NextArrow:before{content:'\f105';}
 
 .Modern-Slider .PrevArrow{
+  display: none;
   outline: none;
   position:absolute;
   top:60px;
